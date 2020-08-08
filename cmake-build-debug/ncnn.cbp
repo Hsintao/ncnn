@@ -1,0 +1,2637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ncnn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\cmake\;CMake Files\benchmark\;CMake Files\examples\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\intel\;CMake Files\..\..\..\..\opt\intel\openvino_2020.4.287\;CMake Files\..\..\..\..\opt\intel\openvino_2020.4.287\opencv\;CMake Files\..\..\..\..\opt\intel\openvino_2020.4.287\opencv\cmake\;CMake Files\tools\;CMake Files\tools\caffe\;CMake Files\tools\mxnet\;CMake Files\tools\onnx\;CMake Files\tools\darknet\;CMake Files\tools\quantize\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/libncnn.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src/layer/x86"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src/layer"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ncnn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/libncnn.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src/layer/x86"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src/layer"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ncnn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn-generate-spirv">
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ncnn-generate-spirv"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchncnn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/benchncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 benchncnn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchncnn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/benchncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 benchncnn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pfld">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/pfld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 pfld"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pfld/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/pfld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 pfld/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="retinaface">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/retinaface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 retinaface"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="retinaface/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/retinaface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 retinaface/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplepose">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/simplepose" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 simplepose"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplepose/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/simplepose" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 simplepose/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobilenetssd">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/mobilenetssd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 mobilenetssd"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobilenetssd/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/mobilenetssd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 mobilenetssd/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov4">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolov4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolov4"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov4/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolov4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolov4/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobilenetv2ssdlite">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/mobilenetv2ssdlite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 mobilenetv2ssdlite"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mobilenetv2ssdlite/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/mobilenetv2ssdlite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 mobilenetv2ssdlite/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shufflenetv2">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/shufflenetv2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 shufflenetv2"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shufflenetv2/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/shufflenetv2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 shufflenetv2/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="peleenetssd_seg">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/peleenetssd_seg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 peleenetssd_seg"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="peleenetssd_seg/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/peleenetssd_seg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 peleenetssd_seg/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="squeezenet">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/squeezenet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 squeezenet"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="squeezenet/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/squeezenet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 squeezenet/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov3">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolov3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolov3"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov3/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolov3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolov3/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolact">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolact" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolact"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolact/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolact" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolact/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rfcn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/rfcn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 rfcn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rfcn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/rfcn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 rfcn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="squeezenetssd">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/squeezenetssd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 squeezenetssd"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="squeezenetssd/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/squeezenetssd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 squeezenetssd/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov2">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolov2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolov2"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov2/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/yolov2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 yolov2/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fasterrcnn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/fasterrcnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 fasterrcnn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fasterrcnn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/fasterrcnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 fasterrcnn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="squeezenet_c_api">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/squeezenet_c_api" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 squeezenet_c_api"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="squeezenet_c_api/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/squeezenet_c_api" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/../src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 squeezenet_c_api/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnnoptimize">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/ncnnoptimize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 ncnnoptimize"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnnoptimize/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/ncnnoptimize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 ncnnoptimize/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn2mem">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/ncnn2mem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 ncnn2mem"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn2mem/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/ncnn2mem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 ncnn2mem/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffe2ncnn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/caffe2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 caffe2ncnn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caffe2ncnn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/caffe2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 caffe2ncnn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mxnet2ncnn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/mxnet2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 mxnet2ncnn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mxnet2ncnn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/mxnet2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 mxnet2ncnn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/mxnet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onnx2ncnn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/onnx2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 onnx2ncnn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onnx2ncnn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/onnx2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 onnx2ncnn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet2ncnn">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/darknet2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 darknet2ncnn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet2ncnn/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/darknet2ncnn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 darknet2ncnn/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn2int8">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/ncnn2int8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 ncnn2int8"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn2int8/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/ncnn2int8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 ncnn2int8/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn2table">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/ncnn2table" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DOpenCV_VERSION_MAJOR=4"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/opt/intel/openvino_2020.4.287/opencv/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 ncnn2table"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncnn2table/fast">
+				<Option output="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/ncnn2table" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DOpenCV_VERSION_MAJOR=4"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/src"/>
+					<Add directory="/Users/xintao/Desktop/ncnn/cmake-build-debug/src"/>
+					<Add directory="/opt/intel/openvino_2020.4.287/opencv/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 ncnn2table/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/quantize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xintao/Desktop/ncnn/benchmark/benchncnn.cpp">
+			<Option target="benchncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/batchnorm_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/batchnorm_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/batchnorm_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/batchnorm_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/bias_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/bias_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/bias_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/bias_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/binaryop_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/binaryop_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/binaryop_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/binaryop_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/cast_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/cast_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/cast_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/cast_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/clip_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/clip_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/clip_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/clip_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/concat_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/concat_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/concat_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/concat_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolution_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolution_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolution_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolution_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolutiondepthwise_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolutiondepthwise_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolutiondepthwise_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/convolutiondepthwise_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/crop_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/crop_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/crop_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/crop_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/dropout_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/dropout_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/dropout_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/dropout_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/eltwise_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/eltwise_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/eltwise_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/eltwise_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/flatten_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/flatten_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/flatten_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/flatten_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardsigmoid_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardsigmoid_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardsigmoid_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardsigmoid_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardswish_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardswish_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardswish_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/hardswish_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/innerproduct_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/innerproduct_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/innerproduct_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/innerproduct_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lrn_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lrn_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lrn_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lrn_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lstm_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lstm_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lstm_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/lstm_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/mish_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/mish_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/mish_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/mish_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/packing_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/packing_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/packing_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/packing_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/padding_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/padding_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/padding_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/padding_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/pooling_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/pooling_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/pooling_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/pooling_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/prelu_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/prelu_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/prelu_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/prelu_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/relu_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/relu_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/relu_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/relu_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/reshape_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/reshape_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/reshape_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/reshape_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/roialign_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/roialign_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/roialign_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/roialign_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/scale_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/scale_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/scale_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/scale_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/sigmoid_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/sigmoid_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/sigmoid_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/sigmoid_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/slice_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/slice_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/slice_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/slice_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/swish_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/swish_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/swish_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/swish_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/tanh_x86_avx2.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/tanh_x86_avx2.cpp.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/tanh_x86_avx2.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/src/layer/x86/tanh_x86_avx2.h.rule">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/caffe.pb.cc">
+			<Option target="caffe2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/caffe.pb.h">
+			<Option target="caffe2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/caffe/caffe.pb.h.rule">
+			<Option target="caffe2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/onnx.pb.cc">
+			<Option target="onnx2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/onnx.pb.h">
+			<Option target="onnx2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake-build-debug/tools/onnx/onnx.pb.h.rule">
+			<Option target="onnx2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/fasterrcnn.cpp">
+			<Option target="fasterrcnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/mobilenetssd.cpp">
+			<Option target="mobilenetssd"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/mobilenetv2ssdlite.cpp">
+			<Option target="mobilenetv2ssdlite"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/peleenetssd_seg.cpp">
+			<Option target="peleenetssd_seg"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/pfld.cpp">
+			<Option target="pfld"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/retinaface.cpp">
+			<Option target="retinaface"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/rfcn.cpp">
+			<Option target="rfcn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/shufflenetv2.cpp">
+			<Option target="shufflenetv2"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/simplepose.cpp">
+			<Option target="simplepose"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/squeezenet.cpp">
+			<Option target="squeezenet"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/squeezenet_c_api.cpp">
+			<Option target="squeezenet_c_api"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/squeezenetssd.cpp">
+			<Option target="squeezenetssd"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/yolact.cpp">
+			<Option target="yolact"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/yolov2.cpp">
+			<Option target="yolov2"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/yolov3.cpp">
+			<Option target="yolov3"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/yolov4.cpp">
+			<Option target="yolov4"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/allocator.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/allocator.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/benchmark.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/benchmark.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/blob.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/blob.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/c_api.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/c_api.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/command.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/command.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/cpu.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/cpu.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/datareader.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/datareader.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/gpu.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/gpu.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/absval.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/absval.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/batchnorm.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/batchnorm.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/bias.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/bias.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/binaryop.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/binaryop.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/bnll.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/bnll.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/cast.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/cast.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/clip.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/clip.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/concat.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/concat.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/convolution.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/convolution.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/convolutiondepthwise.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/convolutiondepthwise.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/crop.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/crop.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/deconvolution.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/deconvolution.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/deconvolutiondepthwise.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/deconvolutiondepthwise.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/deepcopy.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/deepcopy.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/dequantize.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/dequantize.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/detectionoutput.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/detectionoutput.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/dropout.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/dropout.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/eltwise.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/eltwise.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/elu.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/elu.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/embed.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/embed.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/exp.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/exp.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/expanddims.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/expanddims.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/flatten.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/flatten.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/hardsigmoid.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/hardsigmoid.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/hardswish.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/hardswish.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/innerproduct.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/innerproduct.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/input.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/input.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/instancenorm.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/instancenorm.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/interp.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/interp.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/log.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/log.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/lrn.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/lrn.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/lstm.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/lstm.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/memorydata.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/memorydata.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/mish.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/mish.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/mvn.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/mvn.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/noop.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/noop.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/normalize.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/normalize.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/packing.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/packing.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/padding.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/padding.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/permute.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/permute.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/pixelshuffle.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/pixelshuffle.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/pooling.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/pooling.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/power.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/power.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/prelu.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/prelu.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/priorbox.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/priorbox.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/proposal.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/proposal.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/psroipooling.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/psroipooling.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/quantize.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/quantize.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/reduction.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/reduction.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/relu.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/relu.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/reorg.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/reorg.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/requantize.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/requantize.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/reshape.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/reshape.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/roialign.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/roialign.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/roipooling.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/roipooling.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/scale.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/scale.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/selu.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/selu.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/shufflechannel.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/shufflechannel.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/sigmoid.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/sigmoid.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/slice.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/slice.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/softmax.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/softmax.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/split.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/split.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/squeeze.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/squeeze.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/statisticspooling.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/statisticspooling.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/swish.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/swish.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/tanh.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/tanh.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/threshold.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/threshold.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/unaryop.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/unaryop.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/batchnorm_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/batchnorm_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/bias_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/bias_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/binaryop_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/binaryop_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/cast_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/cast_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/clip_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/clip_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/concat_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/concat_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/convolution_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/convolution_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/convolutiondepthwise_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/crop_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/crop_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/dropout_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/dropout_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/eltwise_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/eltwise_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/flatten_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/flatten_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/hardsigmoid_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/hardsigmoid_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/hardswish_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/hardswish_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/innerproduct_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/innerproduct_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/lrn_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/lrn_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/lstm_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/lstm_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/mish_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/mish_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/packing_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/packing_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/padding_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/padding_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/pooling_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/pooling_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/prelu_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/prelu_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/relu_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/relu_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/reshape_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/reshape_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/roialign_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/roialign_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/scale_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/scale_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/sigmoid_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/sigmoid_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/slice_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/slice_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/swish_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/swish_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/tanh_x86.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/x86/tanh_x86.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/yolodetectionoutput.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/yolodetectionoutput.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/yolov3detectionoutput.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer/yolov3detectionoutput.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/mat.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/mat.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/mat_pixel.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/mat_pixel_resize.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/mat_pixel_rotate.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/modelbin.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/modelbin.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/net.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/net.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/opencv.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/opencv.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/option.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/option.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/paramdict.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/paramdict.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/pipeline.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/pipeline.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/pipelinecache.cpp">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/pipelinecache.h">
+			<Option target="ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/caffe/caffe2ncnn.cpp">
+			<Option target="caffe2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/darknet/darknet2ncnn.cpp">
+			<Option target="darknet2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/mxnet/mxnet2ncnn.cpp">
+			<Option target="mxnet2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/ncnn2mem.cpp">
+			<Option target="ncnn2mem"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/ncnnoptimize.cpp">
+			<Option target="ncnnoptimize"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/onnx/onnx2ncnn.cpp">
+			<Option target="onnx2ncnn"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/quantize/ncnn2int8.cpp">
+			<Option target="ncnn2int8"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/quantize/ncnn2table.cpp">
+			<Option target="ncnn2table"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_declaration.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_registry.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_registry_arm82.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_registry_avx2.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_shader_registry.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_shader_spv_data.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_shader_type_enum.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/layer_type_enum.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/src/platform.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake/ncnnConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake/ncnn_add_layer.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake/ncnn_add_shader.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/cmake/ncnn_generate_shader_spv_header.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\benchmark\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../opt/intel/openvino_2020.4.287/opencv/cmake/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\intel\openvino_2020.4.287\opencv\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../opt/intel/openvino_2020.4.287/opencv/cmake/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\intel\openvino_2020.4.287\opencv\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../opt/intel/openvino_2020.4.287/opencv/cmake/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\intel\openvino_2020.4.287\opencv\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/../../../../opt/intel/openvino_2020.4.287/opencv/cmake/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\intel\openvino_2020.4.287\opencv\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/caffe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\caffe\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/mxnet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\mxnet\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/onnx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\onnx\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/darknet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\darknet\"/>
+		</Unit>
+		<Unit filename="/Users/xintao/Desktop/ncnn/tools/quantize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\quantize\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
